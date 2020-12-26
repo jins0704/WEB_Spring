@@ -1,9 +1,8 @@
 # WEB_Spring
 
-## Week01>
+## Week01
 - Run Spring
 - Using RestController
-
 #### Task01
     Make Person class
     Using Getter, Setter
