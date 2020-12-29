@@ -6,9 +6,11 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 import java.util.List;
 
+@EnableJpaAuditing
 @SpringBootApplication
 public class Week02Application {
 
@@ -20,15 +22,23 @@ public class Week02Application {
     @Bean
     public CommandLineRunner demo(CourseRepository repository) {
         return (args) -> {
-            Course course1 = new Course("spring of web", "jin");
-            repository.save(course1);
+            // 데이터 저장하기
+            repository.save(new Course("react", "jin"));
 
+// 데이터 전부 조회하기
             List<Course> courseList = repository.findAll();
-            for(int i=0; i< courseList.size(); i++){
-                Course c = courseList.get(i);
-                System. out.println(c.getTitle());
-                System.out.println(c.getTutor());
+            for (int i=0; i<courseList.size(); i++) {
+                Course course = courseList.get(i);
+                System.out.println(course.getId());
+                System.out.println(course.getTitle());
+                System.out.println(course.getTutor());
             }
+
+// 데이터 하나 조회하기
+            Course course = repository.findById(1L).orElseThrow(
+                    () -> new IllegalArgumentException("해당 아이디가 존재하지 않습니다.")
+            );
+
         };
     }
 }
