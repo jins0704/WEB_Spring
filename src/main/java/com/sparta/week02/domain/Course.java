@@ -1,10 +1,13 @@
 package com.sparta.week02.domain;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
+import javax.persistence.*;
+
+@Getter
+@NoArgsConstructor
+@Entity
 public class Course extends Timestamped {
 
     @Id // ID 값, Primary Key로 사용하겠다는 뜻입니다.
@@ -17,25 +20,13 @@ public class Course extends Timestamped {
     @Column(nullable = false)
     private String tutor;
 
-    public String getTitle() {
-        return this.title;
-    }
-
-    public String getTutor() {
-        return this.tutor;
-    }
-
     public Course(String title, String tutor) {
         this.title = title;
         this.tutor = tutor;
     }
 
-    public Long getId() {
-        return this.id;
-    }
-
-    public void update(Course course) {
-        this.title = course.title;
-        this.tutor = course.tutor;
+    public void update(CourseRequestDto requestDto) {
+        this.title = requestDto.getTitle();
+        this.tutor = requestDto.getTutor();
     }
 }
