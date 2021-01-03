@@ -12,10 +12,9 @@
 - Using RestController
 
 - #### Task01
-   
-      Make Person class
-      Using Getter, Setter
-      View in http://localhost:8080/myinfo
+     
+      1. Java 언어를 사용하여 Person클래스를 만들자 
+      2. 로컬서버에서 정보를 확인하자. View in http://localhost:8080/myinfo
 
 ## Week02
 - Using H2 RDBMS (http://localhost:8080/h2-console)
@@ -46,8 +45,7 @@
 
 - #### Task02
     
-      CRUD 
-        Person(name,gender,age) 
+      Person 정보를 CRUD 기능을 이용하여 관리하자. 
         https://localhost:8080/api/persons : POST
         https://localhost:8080/api/persons : GET
         https://localhost:8080/api/person/{id} PUT
