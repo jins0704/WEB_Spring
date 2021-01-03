@@ -11,10 +11,11 @@
         이용한다고 가정하고 진행
 - Using RestController
 
-#### Task01
-    Make Person class
-    Using Getter, Setter
-    View in http://localhost:8080/myinfo
+- #### Task01
+   
+      Make Person class
+      Using Getter, Setter
+      View in http://localhost:8080/myinfo
 
 ## Week02
 - Using H2 RDBMS (http://localhost:8080/h2-console)
@@ -43,8 +44,9 @@
         
 - Using Lombok, DTO
 
-#### Task02
-    - CRUD 
+- #### Task02
+    
+      CRUD 
         Person(name,gender,age) 
         https://localhost:8080/api/persons : POST
         https://localhost:8080/api/persons : GET
