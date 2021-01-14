@@ -22,6 +22,9 @@
 - 네이버 API와 서비스 연결
     1. NaverShopSearch 컴포넌트 등록 
     2. ARC를 이용하여 확인 
+    
+    <img width="500" alt="스크린샷 2021-01-14 오후 6 22 14" src="https://user-images.githubusercontent.com/70695311/104570607-8071f580-5695-11eb-8834-90aed5a5c484.png">
+
 
 - API 업데이트 
     1. utils 패키지의 스케줄러 클래스를 이용하여 주기적으로 업데이트
