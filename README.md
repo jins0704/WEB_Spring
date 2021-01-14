@@ -11,6 +11,11 @@
     1. RDBMS의 기초 지식을 습득한다.
     2. Spring Data JPA의 사용법을 습득한다.
     3. REST API를 만드는 방법을 익힌다.
+ 
+   > Controller : 제일 바깥 쪽에서 요청을 받고, 응답을 되돌려주는 역할  
+   > Service : 중간에서 구체적인 작업 순서 결정
+   > Repository : DB와 직접 소통하며 자료를 생성, 조회, 변경, 삭제
+   > layer 간에는 절대 Entity를 직접 사용하지 않고, DTO 사용
     
 - Using H2 RDBMS (http://localhost:8080/h2-console)
 
