@@ -6,11 +6,11 @@
 
 ## Week02
 
-    **[수업 목표]**
+   **[수업 목표]**
 
-    1. RDBMS의 기초 지식을 습득한다.
-    2. Spring Data JPA의 사용법을 습득한다.
-    3. REST API를 만드는 방법을 익힌다.
+   1. RDBMS의 기초 지식을 습득한다.
+   2. Spring Data JPA의 사용법을 습득한다.
+   3. REST API를 만드는 방법을 익힌다.
 
 - 3 Layers 
    * Controller : 제일 바깥 쪽에서 요청을 받고, 응답을 되돌려주는 역할  
@@ -20,9 +20,9 @@
     
 - Using H2 RDBMS (http://localhost:8080/h2-console)
 
-        src > main > resources > application.properties
-        - spring.h2.console.enabled=true
-        - spring.datasource.url=jdbc:h2:mem:testdb
+    src > main > resources > application.properties
+    - spring.h2.console.enabled=true
+    - spring.datasource.url=jdbc:h2:mem:testdb
 - Timestamped
         
         Timestamed.java
@@ -55,14 +55,14 @@
   
 ## Week03
   
-    **[수업 목표]**
-
-    1. 페이지를 만들기 위한 HTML,CSS, Javascript를 익힌다.
-    2. 스프링을 이용해 API를 만들고 기능 확인하는 법을 손에 익힌다.
-    3. 타임라인 서비스를 완성한다.
+   **[수업 목표]**
+   
+   1. 페이지를 만들기 위한 HTML,CSS, Javascript를 익힌다.
+   2. 스프링을 이용해 API를 만들고 기능 확인하는 법을 손에 익힌다.
+   3. 타임라인 서비스를 완성한다.
 
         
-    <img width="300" alt="ffffff" src="https://user-images.githubusercontent.com/70695311/103992123-0219dd00-51d7-11eb-8b51-2e97c67d4cd8.png">
+   <img width="300" alt="ffffff" src="https://user-images.githubusercontent.com/70695311/103992123-0219dd00-51d7-11eb-8b51-2e97c67d4cd8.png">
  
  - Javascript 기초문법
         
