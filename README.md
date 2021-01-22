@@ -4,7 +4,7 @@
 
 -**자세한 사항은 각 주차의 Readme**
 
- **최종목표**
+ ## 최종목표
 
  1. 내가 만든 로컬서비스를 AWS RDS의 MySQL 데이터베이스 연결
  2. AWS EC2를 세팅하여 배포
@@ -108,6 +108,6 @@
 ### 프로젝트 1 (week03)
 ![timeline](https://user-images.githubusercontent.com/70695311/103992908-27f3b180-51d8-11eb-87c7-346bb66d49a3.gif)
 
-### 프로젝트 2 (week04)
+### 프로젝트 2 (week04,05)
 
-<img width="500" alt="스크린샷 2021-01-22 오전 11 54 33" src="https://user-images.githubusercontent.com/70695311/105439737-b5d79e00-5ca8-11eb-8b06-3705e82561ac.png">
+<img width="650" alt="스크린샷 2021-01-22 오전 11 54 33" src="https://user-images.githubusercontent.com/70695311/105439737-b5d79e00-5ca8-11eb-8b06-3705e82561ac.png">
